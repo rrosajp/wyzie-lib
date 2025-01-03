@@ -6,6 +6,7 @@ export interface SearchSubtitlesParams {
   language?: string;
   format?: string;
   hi?: boolean;
+  parseVTT?: boolean;
 }
 
 export type SubtitleData = {
